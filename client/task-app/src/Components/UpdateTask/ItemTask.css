@@ -1,0 +1,35 @@
+.item__container {
+  display: flex;
+  column-gap: 2%;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.item__container > div > h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.btnContainer > a {
+  font-size: 25px;
+}
+.item__container > div > button,
+.btnEliminar {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+}
+.item__container > div > button:hover,
+.btnEliminar:hover {
+  opacity: 0.5;
+}
+.btnContainer {
+  min-width: 130px;
+}
+.item__container.started {
+  box-shadow: rgba(0, 208, 255, 0.5) 0px 0px 10px 3px;
+}
+.item__container.completed {
+  box-shadow: rgba(0, 255, 68, 0.3) 0px 0px 10px 3px;
+}
